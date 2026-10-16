@@ -8,7 +8,7 @@ On-chain **rug / honeypot check for any Base token, from your terminal** — one
 npx @true402.dev/rugcheck 0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed
 ```
 
-It tries true402's **free trial** first (a few free checks/day — no wallet needed). For unlimited checks, point it at a payer wallet and it pays [true402](https://true402.dev)'s `token-report` over [x402](https://x402.org) (~$0.01 USDC on Base, **no account, no API key** — the wallet is the identity):
+It tries true402's **free trial** first (a few free checks/day — no wallet needed). For unlimited checks, point it at a payer wallet and it pays [true402](https://true402.dev)'s `token-report` over [x402](https://x402.org) (~$0.008 USDC on Base, **no account, no API key** — the wallet is the identity):
 
 Works on Base (default), Ethereum and BNB Smart Chain — add `--chain ethereum` or `--chain bsc`.
 
