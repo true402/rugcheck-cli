@@ -36,6 +36,12 @@ The verdict is a composite of an on-chain buy/sell **honeypot simulation**, **li
 
 **Not in a terminal?** Send any Base token address to [@True402bot](https://t.me/True402bot) on Telegram, or use the browser check at <https://true402.dev/check> — same on-chain simulation, free, no wallet.
 
+## Guides
+
+- [Base honeypot checker (free, in the browser)](https://true402.dev/check)
+- [How a honeypot simulation works](https://true402.dev/guides/honeypot-simulation-explained)
+- [What a honeypot check misses](https://true402.dev/guides/what-a-honeypot-check-misses)
+
 ## Also available for
 
 MCP (Claude Code / Desktop, Cursor, **Hermes**) · **Hermes Agent** · **OpenClaw** · **ElizaOS** ·
