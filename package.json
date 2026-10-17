@@ -1,0 +1,46 @@
+{
+  "name": "@true402.dev/rugcheck",
+  "version": "1.3.3",
+  "description": "Terminal rug/honeypot check for any Base token — `npx @true402.dev/rugcheck 0x…` — pay-per-call over x402 (USDC, no account, no API key).",
+  "type": "module",
+  "bin": {
+    "rugcheck": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/cli.ts --format esm --clean",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "x402",
+    "base",
+    "rug-check",
+    "rugcheck",
+    "honeypot",
+    "cli",
+    "token-safety",
+    "crypto",
+    "defi",
+    "web3",
+    "memecoin",
+    "ai-agents",
+    "agent-tools",
+    "hermes-agent",
+    "openclaw",
+    "mcp"
+  ],
+  "homepage": "https://true402.dev",
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
