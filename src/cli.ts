@@ -128,7 +128,7 @@ async function main() {
         `             what already happened to the token, which a live simulation cannot see.\n\n` +
         `Defaults to ${C.bold}base${C.reset}. The check runs against that chain's own DEX pools.\n\n` +
         `Free trial first; for unlimited checks set ${C.bold}PAYER_PRIVATE_KEY${C.reset}=0x… (a Base wallet\n` +
-        `with a little USDC) to pay ~$0.01 per call over x402 — no account, no API key.\n` +
+        `with a little USDC) to pay ~$0.008 per call over x402 — no account, no API key.\n` +
         `More: https://true402.dev\n`,
     );
     process.exit(arg ? 0 : 1);
@@ -159,7 +159,7 @@ async function main() {
     process.stdout.write(
       `\n${C.bold}true402 rugcheck${C.reset} · ${short(arg)}\n\n` +
         `The free trial isn't available right now (off or used up).\n` +
-        `Set ${C.bold}PAYER_PRIVATE_KEY${C.reset}=0x… (a Base wallet with a little USDC) to pay ~$0.01/call:\n` +
+        `Set ${C.bold}PAYER_PRIVATE_KEY${C.reset}=0x… (a Base wallet with a little USDC) to pay ~$0.008/call:\n` +
         `  ${C.dim}PAYER_PRIVATE_KEY=0x… npx @true402.dev/rugcheck ${arg}${C.reset}\n` +
         `${C.dim}Why a wallet, not an API key? → https://true402.dev/buy${C.reset}\n`,
     );
