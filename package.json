@@ -1,6 +1,6 @@
 {
   "name": "@true402.dev/rugcheck",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Terminal rug/honeypot check for any Base token — `npx @true402.dev/rugcheck 0x…` — pay-per-call over x402 (USDC, no account, no API key).",
   "type": "module",
   "bin": {
